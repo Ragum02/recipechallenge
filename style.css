@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+            margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: 'Outfit', sans-serif;
+        color: hsl(30, 10%, 34%);
+      
+}
+h1,
+h3 {
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 400;
+  margin: 0 0 0px 50px;
+  padding: 0;
+}
+h1{
+    color: hsl(24, 5%, 18%);
+    font-size: 3rem;
+}
+h3 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem ;
+}
+h4 {
+    color:  hsl(332, 51%, 32%);
+    margin: 25px 0 0 85px;
+    font-size: 1.5rem;
+}
+img {
+    width: 90%;
+    margin: 2rem;
+    border-radius: 15px;
+}
+.recipe-wrapper {
+    margin-top: 5rem;
+    overflow: inherit;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -25%);
+    display: flex;
+    flex-flow: column;
+    width: 50rem;
+padding-bottom: 2rem;
+}
+.prepation-time {
+    margin-bottom: 10px;
+}
+.prepation-time ul{
+    margin-left: 60px;
+}
+.trait{
+    background-color: hsl(30, 18%, 87%);
+    width: 90%;
+    height: 1px;
+    align-self: center;
+    margin: 25px 0 25px 0;
+}
+p, ul, ol{
+
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+li{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+::marker {
+    color:hsl(14, 45%, 36%);
+    font-size: 1rem;
+    font-weight: bold;
+}
+table {
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+#nutritions p{
+    margin-left: 50px;
+}
+td {
+    padding: 5px;
+    margin-top: 10px;
+    vertical-align: baseline;
+    height: 25px;
+    text-align: center;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+
+.attribution {
+    bottom: -120%;
+    right: 50%;
+    transform: translate(50%);
+    position: absolute;
+}
+
+@media (min-width: 3480px) {
+
+    .attribution {
+        bottom: -500%;
+        right: 50%;
+        transform: translate(45%, 8000%);
+        position: absolute;
+        text-wrap: nowrap ;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 16px; 
+      overflow-x: hidden;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    .attribution {
+    display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+
+    .recipe-wrapper {
+        width: 100%;
+        margin: 5rem auto 2rem; 
+
+    }
+
+    .trait {
+        margin: 10px 0;
+    }
+
+
+    li {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    ::marker {
+        font-size: 0.8rem;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td {
+        padding: 5px;
+    }
+}

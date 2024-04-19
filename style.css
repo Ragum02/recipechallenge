@@ -49,6 +49,7 @@ img {
 padding-bottom: 2rem;
 }
 .prepation-time {
+    background-color:hsl(330, 100%, 98%);
     margin-bottom: 10px;
 }
 .prepation-time ul{

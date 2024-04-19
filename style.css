@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-
 body {
     background-color: hsl(30, 54%, 90%);
             margin: 0;
@@ -53,7 +52,7 @@ padding-bottom: 2rem;
     margin: 0 50px 10px 85px
 }
 .preparation-time ul {
-    margin-left : 0
+    margin-left : 0;
 }
 .trait{
     background-color: hsl(30, 18%, 87%);
